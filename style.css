@@ -1,11 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fafafa;
+
+    /* 🔥 NEW BACKGROUND IMAGE 🔥 */
+    background: url("1686327595214.jpg") no-repeat center center fixed;
+    background-size: cover;
+
     display: flex;
     justify-content: center;
     padding: 40px;
     text-align: center;
     position: relative;
+
+    /* Optional darkening filter for readability */
+    backdrop-filter: brightness(100%);
 }
 
 /* LEFT TOP GIF */
@@ -21,7 +28,7 @@ body {
 .gif-left {
     position: fixed;
     left: 450px;
-    top: 50%;
+    top: 57%;
     width: 150px;
     transform: translateY(-50%);
 }
@@ -39,13 +46,17 @@ body {
 .gif-right {
     position: fixed;
     right: 450px;
-    top: 50%;
+    top: 57%;
     width: 150px;
     transform: translateY(-50%);
 }
 
 .container {
     width: 450px;
+    background: rgba(0, 0, 0, 0.55); /* semi-transparent panel */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
 }
 
 .top-text {
@@ -65,7 +76,7 @@ body {
 }
 
 a {
-    color: #3366ff;
+    color: #78aaff;
     text-decoration: none;
 }
 
