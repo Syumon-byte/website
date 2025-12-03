@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+/* LEFT TOP GIF */
+.gif-left-top {
+    position: fixed;
+    left: 450px;
+    top: 27%;
+    width: 150px;
+    transform: translateY(-50%);
+}
+
+/* LEFT MIDDLE GIF */
+.gif-left {
+    position: fixed;
+    left: 450px;
+    top: 50%;
+    width: 150px;
+    transform: translateY(-50%);
+}
+
+/* RIGHT TOP GIF */
+.gif-right-top {
+    position: fixed;
+    right: 450px;
+    top: 27%;
+    width: 150px;
+    transform: translateY(-50%);
+}
+
+/* RIGHT MIDDLE GIF */
+.gif-right {
+    position: fixed;
+    right: 450px;
+    top: 50%;
+    width: 150px;
+    transform: translateY(-50%);
+}
+
+.container {
+    width: 450px;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.top-text p {
+    width: 50%;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+a {
+    color: #3366ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
